@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CambioDeMoneda</string>
+    <string name="CambioMoneda">CAMBIO DE MONEDA</string>
+    <string name="PesetasAEuros">Pst a Euros</string>
+    <string name="EurosAPesetas">Euros a Pst</string>
+    <string name="introduceValor">Introduce Valor</string>
+    <string name="btnCambiar">Cambiar</string>
+</resources>

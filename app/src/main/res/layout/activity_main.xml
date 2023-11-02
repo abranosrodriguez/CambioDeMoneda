@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/amarillo_pollito"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/CambioMoneda"
+        android:textSize="25sp"
+        />
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/rdbBtnGroup">
+        <RadioButton
+            android:id="@+id/rdbtnPAE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/PesetasAEuros"
+            />
+        <RadioButton
+            android:id="@+id/rdbtnEAP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/EurosAPesetas"
+            android:layout_marginLeft="30sp"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/introduceValor"
+        />
+    <EditText
+        android:id="@+id/editTxtValor"
+        android:layout_width="120sp"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"/>
+
+    <Button
+        android:id="@+id/btnCambiar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCambiar"/>
+    <TextView
+        android:id="@+id/txtViewCambioRealizado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/azulito"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
